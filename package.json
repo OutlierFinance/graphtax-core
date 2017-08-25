@@ -24,19 +24,19 @@
     "url": "https://github.com/davguij/angular-npm-module-seed.git"
   },
   "devDependencies": {
-    "@angular/compiler": "^2.4.4",
-    "@angular/compiler-cli": "^2.4.4",
+    "@angular/compiler": "^4.2.4",
+    "@angular/compiler-cli": "^4.2.4",
     "cpx": "^1.5.0",
     "renamer": "^0.6.1",
     "rimraf": "^2.5.4",
     "rollup": "^0.41.4",
-    "typescript": "~2.0.0",
+    "typescript": "^2.0.0",
     "uglify-js": "^2.7.5"
   },
   "dependencies": {
-    "@angular/common": "^2.4.4",
-    "@angular/core": "^2.4.4",
+    "@angular/common": "^4.2.4",
+    "@angular/core": "^4.2.4",
     "rxjs": "^5.0.3",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.8.14"
   }
 }
