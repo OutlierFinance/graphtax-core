@@ -36,6 +36,8 @@
   "dependencies": {
     "@angular/common": "^4.2.4",
     "@angular/core": "^4.2.4",
+    "@angular/platform-browser": "^4.3.6",
+    "@angular/router": "^4.2.4",
     "rxjs": "^5.0.3",
     "zone.js": "^0.8.14"
   }
