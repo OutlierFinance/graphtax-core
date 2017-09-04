@@ -1,8 +1,8 @@
 {
-	"name": "angular-npm-module-seed",
+	"name": "angular-graphtax-core",
 	"version": "1.0.0",
-	"description": "Wot!",
-	"main": "bundles/npm-module-seed.umd.min.js",
+	"description": "Core functionality for all GraphTax websites",
+	"main": "bundles/graphtax-core.umd.min.js",
 	"module": "index.js",
 	"typings": "index.d.ts",
 	"keywords": [
@@ -11,8 +11,8 @@
 		"angular 2"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "Outlier Finance",
+		"email": "outlier@outlierfinance.com"
 	},
 	"license": "",
 	"repository": {
@@ -25,8 +25,13 @@
 	},
 	"peerDependencies": {
 		"@angular/core": "^4.2.4",
+		"@angular/animations": "^4.3.6",
+		"@angular/cdk": "^2.0.0-beta.8",
 		"@angular/common": "^4.2.4",
 		"@angular/router": "^4.2.4",
+		"@angular/forms": "^4.2.4",
+		"@angular/http": "^4.2.4",
+		"@angular/material": "^2.0.0-beta.8",
 		"reflect-metadata": "^0.1.8",
 		"rxjs": "^5.0.1",
 		"zone.js": "^0.7.2"

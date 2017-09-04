@@ -1,3 +1,4 @@
-export { SeedModule } from './seed.module';
-export { SeedService } from './seed.service';
-export { SeedComponent } from './seed.component';
+export { FactModule } from './fact.module';
+export { FactService } from './fact.service';
+export { FactComponent } from './fact.component';
+export { Fact } from './fact';

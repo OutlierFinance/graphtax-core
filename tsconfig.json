@@ -18,12 +18,15 @@
 			"@angular/router": [
 				"node_modules/@angular/router"
 			],
+			"@angular/material": [
+				"node_modules/@angular/material"
+			],
 			"rxjs/*": [
 				"node_modules/rxjs/*"
 			]
 		},
 		"rootDir": "src",
-		"outDir": "dist",
+		"outDir": "../graphtax-core-build",
 		"sourceMap": true,
 		"inlineSources": true,
 		"target": "es5",

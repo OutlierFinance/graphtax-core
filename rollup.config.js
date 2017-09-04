@@ -1,13 +1,14 @@
 export default {
-	entry: 'dist/index.js',
-	dest: 'dist/bundles/npm-module-seed.umd.js',
+	entry: '../graphtax-core-build/index.js',
+	dest: '../graphtax-core-build/bundles/graphtax-core.umd.js',
 	sourceMap: false,
 	format: 'umd',
-	moduleName: 'ng.npm-module-seed',
+	moduleName: 'ng.graphtax-core',
 	globals: {
 		'@angular/core': 'ng.core',
 		'@angular/common': 'ng.common',
 		'@angular/router': 'ng.router',
+		'@angular/material': 'ng.material',
 		'rxjs/Observable': 'Rx',
 		'rxjs/ReplaySubject': 'Rx',
 		'rxjs/add/operator/map': 'Rx.Observable.prototype',
